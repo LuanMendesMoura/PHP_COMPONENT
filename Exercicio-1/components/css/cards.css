@@ -1,0 +1,44 @@
+.lista-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+    background-color: var(--color-container-card); 
+    width: 100vw;
+    height: 300px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+    background-color: var(--color-card);
+    padding: 20px;
+    gap: 10px;
+    box-shadow: var(--box-shadow-card);
+    transition: 0.2s;
+
+    .card-h1 {
+        font-weight: bold;
+        color: var(--color-titulo);
+    }
+
+    .card-p {
+        font-size: 0.9rem;
+        color: var(--color-descricao);
+    }
+}
+
+.card:hover {
+    transform: scale(1.05);
+    filter: brightness(120%) ;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
