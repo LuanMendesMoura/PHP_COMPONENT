@@ -1,0 +1,29 @@
+.artigo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1000px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.div-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.group-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-artigo {
+    width: 100px;
+}

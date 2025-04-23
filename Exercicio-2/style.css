@@ -1,0 +1,8 @@
+@import url(reset.css);
+@import url(./components/css/artigos.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
