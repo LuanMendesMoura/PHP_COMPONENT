@@ -5,7 +5,11 @@
 :root {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    --color-main: #fff;
+    --color-main: #f7f7f7;
     --color-form: #fff;
     --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --color-border-input: #c4c4c4;
+    --color-outline-input: #b3b3b3;
+    --color-btn: #3ba82d;
+    --color-text-btn: #fff;
 }

@@ -11,8 +11,63 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     background-color: var(--color-form);
     box-shadow: var(--box-shadow);
-    padding: 20px;
+    padding: 0 20px 0 20px;
+    border-radius: 10px;
+
+    .label-form {
+        display: flex;
+        width: 100%;
+        justify-content: start;
+        font-size: 0.9rem;
+        font-weight: 500
+    }
+
+    .campos-form {
+        resize: vertical;
+        margin: 10px 0 10px 0;
+        border: 1px solid var(--color-border-input);
+        border-radius: 5px;
+        padding: 10px;
+        outline-color: var(--color-outline-input);
+        transition: 0.2s;
+
+        &.input-form {
+            width: calc(100% - 20px);
+        }
+
+        &.select-form {
+            width: 100%;
+        }
+    }
+
+    .campos-form:hover {
+        filter: brightness(90%);
+    }
+
+    .h1-form {
+        display: flex;
+        width: 100%;
+        justify-content: start;
+        font-weight: bold;
+        margin: 20px 0 20px 0;
+    }
+
+    .btn-form {
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: var(--color-btn);
+        color: var(--color-text-btn);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    .btn-form:hover {
+        filter: brightness(85%);
+    }
 }
