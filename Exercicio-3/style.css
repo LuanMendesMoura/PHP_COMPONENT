@@ -1,10 +1,11 @@
 @import url(reset.css);
-@import url(./components/css/artigos.css);
+@import url(./components/css/form.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    --color-border-artigo: #dddddd;
-    --color-p-artigo: #6d6d6d;
+    --color-main: #fff;
+    --color-form: #fff;
+    --box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
