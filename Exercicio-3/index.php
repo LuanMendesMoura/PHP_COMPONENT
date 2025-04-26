@@ -19,7 +19,8 @@
             <?= input(false,"cpf","CPF:","text") ?>
             <?= input(false,"telefone","Telefone:","text") ?>
             <h1 class="h1-form">Informações da Reserva</h1>
-            <?= select("tipo-de-quarto","Tipo de Quarto:","standard","Standard") ?>
+            <?php $listaOptions = ["Standard","Exclusive","Master"] ?>
+            <?= select("tipo-de-quarto","Tipo de Quarto:",$listaOptions) ?>
             <?= input(false,"check-in","Data de Check-in:","date") ?>
             <?= input(false,"check-out","Date de Check-out:","date") ?>
             <?= input(false,"hospedes","Número de Hóspedes:","number") ?>

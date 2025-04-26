@@ -17,13 +17,21 @@
         };
     }
 
-    function select($name, $label, $value, $option) {
-        return 
-        "
+    function select($name, $label, $listaOptions = []) {
+        $select = "
         <label for='$name' class='label-form'>$label</label>
         <select name='$name' id='$name' class='campos-form select-form' required>
-            <option value='$value'>$option</option>
+        ";
+    
+        foreach($listaOptions as $option) {
+            $select .= "<option value='$option'>$option</option>";
+        }
+    
+        $select .= "
         </select>
         ";
+    
+        return $select;
     };
+    
 ?>
